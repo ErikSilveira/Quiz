@@ -1,63 +1,62 @@
 const question = [
   {
-    question: "Qual a forma correta de Misturar uma bebiba",
+    question: "teste1",
     answers: [
-      { text: "Com uma colher", correct: false },
-      { text: "Com utensílios feitos para isso", correct: false },
-      { text: "nem misturo sapoha", correct: false },
-      { text: "sei la nunca fiz isso", correct: false },
-      { text: "O dedo sempre vai ser a melhor opção ", correct: true },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "tetse", correct: false },
+      { text: "teste ", correct: true },
     ],
   },
   {
-    question: "pq caralhos tu anda com 40 energetico em uma sacola",
+    question: "teste1",
     answers: [
-      { text: "Sei la nunca se sabe ", correct: true },
-      { text: "Igual identidade importante", correct: true },
-      { text: "Foi so aquele dia ", correct: false },
-      { text: "Quem que nao anda com 40 energetico", correct: false },
-      { text: "o Erik sabe muito que isso mlk genio", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "tetse", correct: false },
+      { text: "teste ", correct: true },
     ],
   },
   {
-    question:
-      "Pra continuar mandar fto 3x4 pro adm pedir de natal pro idoso do papi noel",
+    question: "teste1",
     answers: [
-      { text: "vai se fuder mlk", correct: true },
-      { text: "alaa quem bate fto 3x4", correct: true },
-      { text: "Nao tenho fto 3x4", correct: true },
-      { text: "Continua logo sapoha", correct: true },
-      { text: "tu vai é levar uma surra eu sou discreta", correct: true },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "tetse", correct: false },
+      { text: "teste ", correct: true },
     ],
   },
   {
-    question: "Com quantos copo a jamile ja fica mal",
+    question: "teste1",
     answers: [
-      { text: "sei la no primero ja to mal", correct: true },
-      { text: "Nem fico mal", correct: false },
-      { text: "So fico mal se for shot (kkkk mentirosa)", correct: false },
-      { text: "que isso nao fico mal", correct: true },
-      { text: "nem eu sei", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "tetse", correct: false },
+      { text: "teste ", correct: true },
     ],
   },
   {
-    question: "OQ voce acha de quem passa mal na level",
+    question: "teste1",
     answers: [
-      { text: "ai mlk tu vai apanhar", correct: true },
-      { text: "Nem fiquei mal so tava fingindo", correct: false },
-      { text: "kkkkkk quase fui pra gloria mais cedo", correct: false },
-      { text: "foi so pq eu misturei com o dedo", correct: true },
-      { text: "sei la ksksksksk", correct: true },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "tetse", correct: false },
+      { text: "teste ", correct: true },
     ],
   },
   {
-    question: "Esse foi so um teste proximo vai ter 40 questao to cansadao",
+    question: "teste1",
     answers: [
-      { text: "o cara fica 4 horas acordado", correct: true },
-      { text: "so isso pae", correct: false },
-      { text: "bha vai ti fude ja acabou", correct: false },
-      { text: "sei la ja nao consigo pensar em resposta", correct: true },
-      { text: "boa noite vou dormir agr", correct: true },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "teste", correct: false },
+      { text: "tetse", correct: false },
+      { text: "teste ", correct: true },
     ],
   },
 ];
@@ -121,7 +120,7 @@ function SelectAnswer(e) {
 
 function showScore() {
   resetState();
-  questionElement.innerHTML = `  <img src="/img/login.png" alt="brain icon " /> <img src="/img/final1.jpg" alt="brain icon " />`;
+  questionElement.innerHTML = ` De ${question} questoues acerto ${score}`;
   nextButton.innerHTML = "Que tua nota no nenem seja mais alta que isso";
   nextButton.style.display = "block";
 }
