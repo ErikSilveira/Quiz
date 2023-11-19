@@ -120,8 +120,8 @@ function SelectAnswer(e) {
 
 function showScore() {
   resetState();
-  questionElement.innerHTML = ` De ${question} questoues acerto ${score}`;
-  nextButton.innerHTML = "Que tua nota no nenem seja mais alta que isso";
+  questionElement.innerHTML = ` Acertou ${score} questoes de ${question.length}`;
+  nextButton.innerHTML = "Reiniciar";
   nextButton.style.display = "block";
 }
 
